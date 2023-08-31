@@ -3,15 +3,15 @@ import logo from '../../images/logoNO1_no-bg_cropped-removebg.png';
 import '../../style/landing-page/navbar.css';
 const Navbar = () => {
   return (
-    <div className='container-fluid'>
+    <div className=''>
       <nav id='navigation-bar' className="navbar navbar-expand-lg">
-        <div className="container-fluid row">
+        <div className="container row">
           <div className='navbar-brand col-lg-2'>
             <img src={logo} alt="" id='logo-navbar' />
             <span id='brand_name'>FURFID</span>
           </div>
-          <div className="col-lg-5 p-0">
-            <ul class="navbar-nav mb-lg-0">
+          <div className="col-lg-5 p-0 d-flex flex-row">
+            <ul class="navbar-nav mb-lg-0 align-items-center">
               <li class="nav-item mx-1">
                 <a class="nav-link my-nav-link" aria-current="page" href="#">Accueil</a>
               </li>
@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="col-lg-2">
-            <button className="btn" id='adherent_btn'>Espace Adhérent</button>
+            <button className="btn float-right" id='adherent_btn'>Espace Adhérent</button>
           </div>
         </div>
       </nav>
