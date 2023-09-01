@@ -7,12 +7,9 @@
     height : 10vh;
 }
 #navigation-bar{
-    /* background-color: aquamarine; */
-    height: 14vh;
-    /* width : fit-content; */
-    margin-left : 3vw;
-    /* padding-left: 3vw; */
-    /* padding-right: 3vw; */
+    height: 11vh;
+    margin-left : 7vw;
+    font-size: 12pt;
 }
 #brand_name{
     color : var(--purple);
@@ -26,14 +23,12 @@
     color : var(--purple);
     font-weight:500;
     text-shadow: 0 0px 2px gray;
-    /* padding-right: 4vw; */
 }
 .my-nav-link:hover{
     color : var(--orange);
     font-weight: bold;
 }
 .my-nav-link:after{
-    /* text-decoration: underline; */
     color : var(--purple);
     font-weight: bold;
     transition : 0.3s

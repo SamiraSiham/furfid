@@ -26,7 +26,7 @@ const Navbar = () => {
                   <li><a class="dropdown-item" href="#">stérilisation</a></li>
                   <li><a class="dropdown-item" href="#">urgences médicales</a></li>
                   <li><a class="dropdown-item" href="#">conseil médical</a></li>
-                </ul>
+                </ul>   
               </li>
               <li class="nav-item mx-1">
                 <a class="nav-link my-nav-link" href="#">Partenaires</a>
