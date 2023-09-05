@@ -5,6 +5,7 @@ import Hero from './Hero';
 import AnimalCards from './AnimalCards';
 import About from './About';
 import Avantages from './Avantages';
+import EspaceVet from './EspaceVet';
 const Landing = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Landing = () => {
         <AnimalCards/>
         <About/>
         <Avantages/>
+        <EspaceVet/>
     </div>
   )
 }

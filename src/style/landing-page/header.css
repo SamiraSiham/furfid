@@ -1,6 +1,9 @@
 #header{
     background-color: #FF7718;
+    height : 4vh;
+    font-size: 12pt;
 }
+
 
 #header #arrow-icon{
     margin-left: 0.5vw;

@@ -7,7 +7,7 @@ const Header = () => {
             <div className="container-fluid">
                 <div className="collapse navbar-collapse">
                     <div className="" id='header-part1'>
-                        <span className='navbar-brand'>
+                        <span className=''>
                             <a href="/">learn more</a> about service furfid +212123456789 
                             <a href="/" style={{ color: 'black' }}><i id='arrow-icon' className="fa-solid fa-chevron-right"></i></a>
                         </span>
