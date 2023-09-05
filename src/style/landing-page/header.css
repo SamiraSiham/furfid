@@ -1,25 +1,13 @@
 #header{
     background-color: #FF7718;
-    height: 6vh;
-    width: 100%;
-    /* padding-top: 0.25vh;
-    padding-bottom: 1vh;
-    padding-left: 3vw; */
 }
 
 #header #arrow-icon{
     margin-left: 0.5vw;
 }
 
-#header-part1{
-    padding-top: 1vh;
-}
-
-#header-part2{
-    padding-top: 1vh;
-    padding-bottom: 0;
-}
-
 .mynavitems{
     margin-right : 3vw;
+    margin-left : 3vw;
+    text-decoration: none;
 }

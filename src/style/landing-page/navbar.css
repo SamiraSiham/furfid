@@ -33,6 +33,10 @@
     font-weight: bold;
     transition : 0.3s
 }
+.my-nav-link:visited{
+    color : var(--purple);
+    font-weight: bold;
+}
 
 .my-nav-link:hover::after{
     content : '';
@@ -53,6 +57,7 @@
 
 .nav-contact-info{
     text-shadow: 0 1px 2px gray;
-    padding-top: 1vh;
+    /* padding-top: 1vh; */
+    margin-top: 2px;
     color : var(--purple)
 }

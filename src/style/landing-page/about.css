@@ -1,0 +1,28 @@
+.about_section{
+    background-color: linear-gradient(180deg , white , #D13C50);
+    z-index : 99;
+    margin-top: -10vh;
+}
+
+#about_title_purple{
+    color : #561B88;
+    font-weight: bold;
+}
+#about_title_orange{
+    color : #FF7718;
+    font-weight: bold;
+}
+.about_section_content{
+    font-weight: bolder;
+}
+.about_brand_name{
+    color : #561B88;
+    font-weight: bold;
+}
+
+.about_section_img{
+    margin-top: -17vh;
+    padding-left: 5vw;
+    width : 40vw;
+    height : 80vh;
+}

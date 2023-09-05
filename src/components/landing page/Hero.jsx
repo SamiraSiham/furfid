@@ -4,12 +4,11 @@ import '../../style/landing-page/hero.css';
 const Hero = () => {
   return (
     <section id='hero'>
-      <div className="overlay"></div>
       <div className="content">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-6">
-              <div className="text-start fs-3 mt-5 pt-3 mx-5">
+        <div className="container">
+          <div className="">
+            <div className="row">
+              <div className="text-start fs-3 mt-5 pt-3 col-md-6">
                 <p id='hero_title'>
                   Services de soins pour
                   <br />

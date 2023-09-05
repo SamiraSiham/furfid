@@ -1,0 +1,48 @@
+.avntgs_title{
+    color: #561B88;
+    font-weight: bold;
+}
+
+.avntgs_subtitle{
+    color : #561B88;
+    font-weight: bolder;
+}
+.avntgs_content{
+    padding-left: 19%;
+}
+.avantages_card{
+    /* margin-left: 20vw; */
+    width : 20vw;
+    height : 20vh;
+    font-size: large;
+}
+
+.myicons_avantages{
+    width : 80%;
+    height : 80%;
+    font-size: 13pt;
+}
+
+.avantageText{
+    font-weight: bold;
+    color : #561B88;
+    font-size : 12pt;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .animalCardText{
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .avntgs_content{
+        padding-left: 5%;
+    }
+    .avantages_card{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width : 20vw;
+        height : 20vh;
+        font-size: large;
+    }
+}
