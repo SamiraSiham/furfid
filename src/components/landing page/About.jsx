@@ -4,10 +4,9 @@ import cat_pic from '../../images/cat pic.png'
 const About = () => {
   return (
     <section className='about_section'>
-        <div className="container-fluid">
-            <div className="row">
-                {/* content */}
-                <div className="col-6 pt-5">
+        <div className="container-fluid ">
+            <div className="about_container">
+                <div className="pt-5 about-text">
                     <h1 className='text-left'>
                         <span id="about_title_purple">Protégez leur bien-être,</span> <br />
                         <span id="about_title_orange">assurez leur santé.</span>
@@ -22,8 +21,7 @@ const About = () => {
                     <span className='about_brand_name'> FURFID </span> simplifie le processus pour une tranquillité d'esprit totale.
                     </p>
                 </div>
-                {/* image */}
-                <div className="col-6">
+                <div className="about-image">
                     <img src={cat_pic} className="about_section_img" alt="" />
                 </div>
             </div>

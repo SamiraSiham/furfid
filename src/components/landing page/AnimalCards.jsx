@@ -6,8 +6,8 @@ import nacIcon from '../../icons/nac-icon.svg';
 const AnimalCards = () => {
     return (
         <section className="container-fluid ">
-            <div class="row animalCardsContainer">
-                <div class="col-md-3">
+            <div class=" animalCardsContainer">
+                <div class="">
                     <div class="card animalCards">
                         <object data={dogIcon}  type="" className='myicons'></object>
                         <div class="card-body">
@@ -15,7 +15,7 @@ const AnimalCards = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="">
                     <div class="card animalCards">
                         <object data={catIcon} type="" className='myicons'></object>
                         <div class="card-body">
@@ -23,7 +23,7 @@ const AnimalCards = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="">
                     <div class="card animalCards">
                         <object data={nacIcon} type="" className='myicons'></object>
                         <div class="card-body">

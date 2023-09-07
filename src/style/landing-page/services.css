@@ -1,0 +1,21 @@
+#services_section{
+    margin-top: 20px;
+}
+
+#services_section #services_title{
+    font-weight: bold;
+    text-align: center;
+}
+
+#services_section #services_title #purple{
+    color : #561B88;
+}
+
+#services_section #services_title #orange{
+    color : #FF7718;
+}
+@media only screen and (max-width: 600px){
+    #services_section{
+        border : 2px solid black;
+    }
+}

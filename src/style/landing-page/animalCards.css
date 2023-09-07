@@ -2,28 +2,33 @@
     width : fit-content;
     height: fit-content;
     z-index: 99;
-    margin-top: -15vh;
-    margin-right: 8vw;
+    margin-top: -10vh;
+    margin-right: 10vw;
     border-radius : 10px
 }
 .animalCardsContainer{
-    padding-left: 25%;
+    padding-left: 22%;
     padding-bottom: 80px;
 }
 @media only screen and (max-width: 600px) {
     .animalCards{
         /* margin-left: 10px; */
-        margin: 10px;
+        /* margin: 10px; */
         width : 100px;
+        height : 80px;
         padding: 0;
+        /* border : 2px solid black; */
     }
     .animalCardsContainer{
-        /* border : 1px solid black; */
+        margin-top: 5vh;
+        padding-right: 10vw;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding-left: 30%;
+        /* padding-left: 30%; */
+        /* margin-top : -10vh; */
+        /* border : 2px solid black; */
     }
 }
 .myicons{

@@ -13,28 +13,28 @@ const Avantages = () => {
             Protégez votre meilleur ami, sans soucis ni tracas!
         </h4>
         <div className='avntgs_content container-fluid mx-auto'>
-            <div class="row">
-                <div class="col-3">
-                    <div class="avantages_card">
+            <div className="avantages_card_container">
+                <div className="">
+                    <div className="avantages_card">
                         <object data={dogIcon}  type="" className='myicons_avantages'></object>
-                        <div class="card-body">
-                            <h5 class="card-title avantageText">Une couverture optimale</h5>
+                        <div className="card-body">
+                            <h5 className="card-title avantageText">Une couverture optimale</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="avantages_card">
+                <div className="">
+                    <div className="avantages_card">
                         <object data={handIcon} type="" className='myicons_avantages'></object>
-                        <div class="card-body">
-                            <h5 class="card-title avantageText">Tarif unique</h5>
+                        <div className="card-body">
+                            <h5 className="card-title avantageText">Tarif unique</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="avantages_card">
+                <div className="">
+                    <div className="avantages_card">
                         <object data={clientIcon} type="" className='myicons_avantages'></object>
-                        <div class="card-body">
-                            <h5 class="card-title avantageText">Espace client personnalisé</h5>
+                        <div className="card-body">
+                            <h5 className="card-title avantageText">Espace client personnalisé</h5>
                         </div>
                     </div>
                 </div>
