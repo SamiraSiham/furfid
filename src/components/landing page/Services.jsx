@@ -6,6 +6,12 @@ import pawIcon from '../../icons/services/paw.svg';
 import operationIcon from '../../icons/services/surgery-room.svg';
 import sterilisationIcon from '../../icons/services/surgical.svg';
 import vaccineIcon from '../../icons/services/vaccine_icon.svg';
+// import service1 from '../../images/services/service-1.jpg';
+// import service2 from '../../images/services/service-2.jpg';
+// import service3 from '../../images/services/service-3.jpg';
+// import service4 from '../../images/services/service-4.jpg';
+// import service5 from '../../images/services/service-5.jpg';
+// import service6 from '../../images/services/service-6.jpg';
 const Services = () => {
     return (
         <section id="services_section">
@@ -13,43 +19,49 @@ const Services = () => {
                 <span id="purple">Nos</span>
                 <span id="orange"> Services</span>
             </h1>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div id="services_wrapper" className='container-fluid'>
+                <div className='services_icon_container'>
+                    <div className="services_icon_wrapper">
+                        <img src={pawIcon} width='90px' height='90px' alt="" />
+                    </div>
+                    <div className="services_text">Consultation Veterinaire</div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="..." class="d-block w-100" alt="..."/>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
+
+                <div className='services_icon_container'>
+                    <div className="services_icon_wrapper">
+                        <img src={doctorIcon} width='80px' height='80px' alt="" />
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="..." class="d-block w-100" alt="..."/>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..."/>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                    </div>
+                    <div className="services_text">Conseil médicale</div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+                <div className='services_icon_container'>
+                    <div className="services_icon_wrapper">
+                        <img src={emergencyIcon} width='70px' height='70px' alt="" />
+                    </div>
+                    <div className="services_text">Urgence médicale</div>
+                </div>
+
+                <div className="services_icon_container">
+                    <div className="services_icon_wrapper">
+                        <img src={operationIcon} width='70px' height='70px' alt="" />
+                    </div>
+                    <div className="services_text">Opération</div>
+                </div>
+
+                <div className="services_icon_container">
+                    <div className="services_icon_wrapper">
+                        <img src={sterilisationIcon} width='70px' height='70px' alt="" />
+                    </div>
+                    <div className="services_text">Stérilisation</div>
+                </div>
+
+                <div className="services_icon_container">
+                    <div className="services_icon_wrapper">
+                        <img src={vaccineIcon} width='70px' height='70px' alt="" />
+                    </div>
+                    <div className="services_text">Vaccination</div>
+                </div>
+
             </div>
         </section>
     )
