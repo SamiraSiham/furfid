@@ -1,0 +1,109 @@
+#devis_section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#devis_section #orange{
+    color : #FF7718;
+}
+
+#devis_section #devis_title{
+    font-weight: bold;
+    color : #561B88;
+}
+
+ #cards_container{
+    /* border : 2px solid black; */
+    display : flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.devis_card{
+    border : 1px solid black;
+    height : fit-content;
+    width: 30vw;
+    /* height : 30vh; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+/* .devis_icon{
+    border : 1px solid red;
+} */
+
+.devis_name{
+    /* border : 1px solid black; */
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.devis_price{
+    background-color: rgba(86 , 27 , 136 , 26%);
+    font-size : 20pt;
+    height: 10vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devis_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.devis_content ul {
+    /* border: 2px solid black; */
+    width: fit-content;
+}
+.devis_content ul li span{
+    width : 20vw;
+    position: relative;
+    /* border : 1px solid black; */
+    /* left : -7vw; */
+    text-align: left;
+}
+
+.devis_content ul li{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    position: relative;
+    text-align: left;
+}
+
+.devis_btn_container{
+    margin-bottom: 3vh;
+}
+
+.devis_btn{
+    background-color: #FFF8F5;
+    border: 1px solid black;
+}
+
+.devis_btn:hover{
+    background-color: #FFF8F5;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    #devis_section #cards_container{
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .devis_card{
+        /* border : 1px solid black; */
+        height : fit-content;
+        width: fit-content;
+        /* height : 30vh; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 25px;
+    }
+}

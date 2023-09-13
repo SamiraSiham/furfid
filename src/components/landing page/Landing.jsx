@@ -7,6 +7,8 @@ import About from './About';
 import Avantages from './Avantages';
 import EspaceVet from './EspaceVet';
 import Services from './Services';
+import Devis from './Devis';
+import Contact from './Contact';
 const Landing = () => {
   return (
     <div>
@@ -18,6 +20,8 @@ const Landing = () => {
         <Avantages/>
         <EspaceVet/>
         <Services/>
+        <Devis/>
+        <Contact/>
     </div>
   )
 }
