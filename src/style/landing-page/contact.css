@@ -1,0 +1,60 @@
+#contact{
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('../../images/contact-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+
+#contact_content{
+    /* border : 1px solid black; */
+    width : 55vw
+}
+
+#contact_info{
+    margin : 30px
+}
+
+#contact_title{
+    color : #561B88;
+    font-weight: bold;
+}
+#contact_subtitle{
+    color : #FF7718;
+    font-weight: bolder;
+}
+#email_info{
+    color :#561B88;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#phone_info{
+    color :#561B88;
+    font-weight: 600;
+}
+
+#emailIcon{
+    margin-right: 10px;
+}
+
+#phoneIcon{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    #contact{
+        display : flex;
+        flex-direction: column-reverse;
+    }
+    #contact_content{
+        width : 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
