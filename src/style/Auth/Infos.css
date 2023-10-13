@@ -1,0 +1,113 @@
+form{
+    width: 80%;
+    position: relative;
+    left: 5%;
+    top: 20px;
+}
+form h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+p{
+    display: inline;
+    font-size: 20px;
+    font-weight: 400;
+    width: 187px;
+}
+input[type="radio"]{
+    appearance: none;
+}
+
+label{
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    width: 141px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255, 72, 2, 0.04);
+    color: #FF4802;
+    font-size: 20px;
+    cursor: pointer;
+}
+#female:checked~label[for="female"],#male:checked~label[for="male"]{
+    background-color: #FF4802;
+    color: white;
+    transition: 500ms;
+}
+.gender,.name,.birthday,.adress,.email,.city,.tel{
+    margin-bottom: 33px;
+}
+#nom,#prenom{
+    width: 212px;
+    height: 30px;
+    border-radius:20px;
+}
+input:not([type='radio']):not([type='submit']){
+    text-align: center;
+    border:1px solid rgba(0, 0, 0, 0.20);
+    background-color: rgba(255, 72, 2, 0.04);
+}
+input::placeholder{
+    color: rgba(255, 72, 2, 0.5);
+}
+.name span{
+    position: relative;
+    left: 0;
+}
+span:not(.gender>span){
+    left: 0;
+}
+select{
+    width: 143px;
+    height: 30px;
+    background-color: rgba(255, 72, 2, 0.04);
+    color: #FF4802;
+    text-align: center;
+    appearance: none;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 30px;
+}
+@media screen and (max-width:1200px){
+    p{
+        display: block;
+        text-align: center;
+    }
+    input,select{
+        display: flex;
+        margin: 10px;
+    }
+    .AuthForm{
+        height: 100%;
+    }
+    form{
+        margin: 0 auto;
+    }
+    #adress{
+        width: 20px;
+    }
+}
+#adress,#email,#city,#tel{
+    width: 444px;
+    border-radius: 30px;
+    height: 30px;
+}
+.RegisterForm > a{
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    border:1px solid #FF4802;
+    border-radius: 20px;
+    width: 141px;
+    height: 50px;
+    background-color:#ff6c02 ;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#inputs{
+    float: right;
+}
+.AuthForm{
+    height: 640px;
+}

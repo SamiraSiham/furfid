@@ -1,0 +1,122 @@
+.register_section{
+    background-image: url('../../images/AuthImage.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.RegisterContainer{
+    height : fit-content;
+    width: 50vw;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 10vh;
+}
+.RegisterForm{
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 25px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.register-labels{
+    text-align: center;
+}
+input[type="password"]{
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    width: 80%;
+    height: 64px;
+    text-align: center;
+    display: flex;
+    margin: 20px auto;
+    /* background: rgba(255, 72, 2, 0.04); */
+    background-color: rgba(255, 72, 2, 0.04);
+    box-shadow: 0 2px 2px 1px rgba(255, 72, 2, 0.04);
+    margin-top: 10px;
+}
+form h1{
+    text-align:center ;
+    font-size :40px ;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-top: 9px;
+    margin-bottom: 30px;
+}
+form h2{
+    text-align: center;
+    /* margin-left: 15px; */
+    font-size: 35px;
+    font-weight: 400;
+}
+form h4{
+    text-align: center;
+    /* margin-left: 15px; */
+    font-size: 20px;
+    font-weight: 400;
+}
+#mail,#password{
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    width: 80%;
+    height: 64px;
+    text-align: center;
+    display: flex;
+    margin: 20px auto;
+    /* background: rgba(255, 72, 2, 0.04); */
+    background-color: rgba(255, 72, 2, 0.04);
+    box-shadow: 0 2px 2px 1px rgba(255, 72, 2, 0.04);
+    margin-top: 10px;
+}
+#mail::placeholder,#password::placeholder{
+    color: #FF4802;
+    font-size: 20px;
+    font-weight: 400;
+}
+#PwForgoat{
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 25%;
+    margin-bottom: 15px;
+
+}
+#Register{
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 12%;
+    margin-bottom: 15px;
+    /* margin-top: 15px;
+    font-size: 17px;
+    border : 2px solid black; */
+}
+form p >a{
+    text-decoration:underline;
+    color: #FF4802;
+}
+#line{
+    background-color:rgba(0, 0, 0, 0.29);
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 50%;
+    height: 1px;
+}
+input[type="submit"]{
+    background-color: #FF7718;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+}
+#connect-btn{
+    text-decoration: none;
+}

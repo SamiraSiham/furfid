@@ -1,0 +1,153 @@
+.choose_animal_section{
+    background-image: url('../../images/AuthImage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0,0,0,0.5);
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height : 85vh
+
+}
+.SelectContainer{
+    width: 70%;
+    background-color:rgba(86, 27, 136, 0.60);
+    margin: 20px auto;
+    border-radius: 50px;
+}
+.text h1{
+    width: 158px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+    color: white;
+}
+.paw{
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+.line{
+    position: relative;
+    bottom: 82px;
+}
+.images{
+    margin-top:10px;
+    width: 210px;
+    height: 150px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.SelectContainer > h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.cards{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Chien,.Chat,.Nac{
+    width: 188.5px;
+    height: 168.5px;
+    border: 1px solid #D2D1D3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Chien>h3,.Chat>h3,.Nac>h3{
+    color: #561B88;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Chien>h3>a,.Chat>h3>a,.Nac>h3>a{
+    text-decoration: none;
+    color : #561B88;
+}
+@media only screen and (max-width: 992px){
+    .choose_animal_section{
+        height: fit-content;
+        margin: 0;
+    }
+    .SelectContainer{
+        height : fit-content;
+        margin: 0;
+    }
+    .SelectContainer > h1{
+        text-align: center;
+        color: white;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+    .images{
+        /* margin-top:10px; */
+        width: 80px;
+        /* border : 1px solid black; */
+        height: 80px;
+        position: relative;
+        left: 30%;
+        /* transform: translate(-50%,0); */
+    }
+    .text h1{
+        width: 158px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        position: relative;
+        bottom: 150px;
+        left: 40px;
+        color: white;
+    }
+    .SelectContainer > h1{
+        margin-top: 50px;
+    }
+    .SelectContainer{
+        margin-top: 50px;
+    }
+}
+#arc_svg{
+    width: 176px;
+    height : 99px;
+}
+#line_svg{
+    height : 82px;
+    width: 47px;
+}
+#paw_svg{
+    width : 75px;
+    height: 64px;
+}
+#catIcon_select{
+    width : 130px;
+    height : 130px
+}
+#dogIcon_select{
+    width : 130px;
+    height : 130px
+}
+#nacIcon_select{
+    width : 130px;
+    height : 130px
+}

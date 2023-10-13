@@ -21,7 +21,7 @@ const Contact = () => {
                 </div>
             </div>
             <div id="contact_img">
-                <img src={contactImg} width='300px' height='300px' alt="" />
+                <img src={contactImg} width='350px' height='350px' alt="" />
             </div>
         </section>
     )

@@ -1,0 +1,9 @@
+.select-ville{
+    height: 30px;
+    width : 100%;
+    background-color: rgba(255, 72, 2, 0.04);
+    color: #FF4802;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 30px;
+}

@@ -5,8 +5,9 @@
     background-image: url('../../images/contact-background.png');
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     background-size: cover;
+    padding-top: 40px;
 }
 
 #contact_content{

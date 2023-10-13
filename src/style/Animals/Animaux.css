@@ -1,0 +1,97 @@
+.Carte{
+    width: 100%;
+    /* margin-bottom: 30px; */
+    position: relative;
+    left: 50%;
+    /* top: 20px; */
+    transform: translate(-60%,0);
+    display: flex;
+    width: 170px;
+    height: fit-content;
+    /* padding: 17px 55px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #D2D1D3;
+    background: linear-gradient(180deg, #FFF8F5 0%, rgba(255, 72, 2, 0.1) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+@media only screen and (max-width: 992px){
+    .Carte{
+        left : 65%;
+        width : 90%;
+    }
+}
+.Carte>h3{
+    color: #561B88;
+    text-align: center;
+    font-style: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+}
+#inputs2 > label{
+    width: 141px;
+    height: 50px;
+    padding-top: 6px;
+}
+div#inputs2,div#inputs2a{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Nom,.Race{
+    width: 64%;
+    position: relative;
+    top: 20px;
+    left: 15%;
+}
+.Nom > input,.Race > input{
+    width: 100%;
+    height: 47px;
+    border-radius: 20px;
+}
+.Nom > input::placeholder,.Race > input::placeholder{
+    font-size: 20px;
+    font-weight: 400px;
+}
+div#inputs2a{
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+div#inputs2a > select{
+    height: 50px;
+}
+/* .AuthForm{
+    height:
+} */
+.Race{
+    text-align: center;
+}
+.Race >a{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4D4751; 
+}
+.button > button{
+    text-align: center;
+    text-decoration: none;
+    border:1px solid #FF4802;
+    border-radius: 20px;
+    width: 141px;
+    height: 50px;
+    background-color:#ff6c02 ;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}

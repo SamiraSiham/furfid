@@ -9,6 +9,7 @@ import EspaceVet from './EspaceVet';
 import Services from './Services';
 import Devis from './Devis';
 import Contact from './Contact';
+import Footer from './Footer';
 const Landing = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const Landing = () => {
         <Services/>
         <Devis/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }

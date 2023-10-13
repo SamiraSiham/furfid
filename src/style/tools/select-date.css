@@ -1,0 +1,14 @@
+.select-date{
+    height: 30px;
+    width : 110px;
+    background-color: rgba(255, 72, 2, 0.04);
+    color: #FF4802;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 30px;
+}
+@media only screen and (max-width: 992px){
+    .select-date{
+        width : 100%;
+    }
+}
