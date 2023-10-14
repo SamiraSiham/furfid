@@ -67,13 +67,13 @@ function Select() {
           <div className="cards">
             <span className="Chien">
               <div className="chienImage">
-                <img src={caticon} id="catIcon_select" alt="" />
+                <img src={dogicon} id="catIcon_select" alt="" />
               </div>
               <h3><a href="/Chien">Chien</a></h3>
             </span>
             <span className="Chat">
               <div className="chatImage">
-                <img src={dogicon} id="dogIcon_select" alt="" />
+                <img src={caticon} id="dogIcon_select" alt="" />
               </div>
               <h3><a href="/Chat">chat</a></h3>
             </span>
